@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  spceis_name: MyString
+  description: MyText
+  version: MyString
+  link: MyText
+  sort_number: 1
+  image_link: MyString
+
+two:
+  spceis_name: MyString
+  description: MyText
+  version: MyString
+  link: MyText
+  sort_number: 1
+  image_link: MyString

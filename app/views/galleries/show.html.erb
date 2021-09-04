@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Spceis name:</strong>
+  <%= @gallery.spceis_name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @gallery.description %>
+</p>
+
+<p>
+  <strong>Version:</strong>
+  <%= @gallery.version %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @gallery.link %>
+</p>
+
+<p>
+  <strong>Sort number:</strong>
+  <%= @gallery.sort_number %>
+</p>
+
+<p>
+  <strong>Image link:</strong>
+  <%= @gallery.image_link %>
+</p>
+
+<%= link_to 'Edit', edit_gallery_path(@gallery) %> |
+<%= link_to 'Back', galleries_path %>
